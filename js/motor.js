@@ -51,7 +51,7 @@ const slGenero = document.querySelector("#genero");
 const montoMinimo = document.querySelector("#montoMinimo");
 const montoMaximo = document.querySelector("#montoMaximo");
 ///
-const nomina = [{ valor: "A" }, { valor: "B" }, { valor: "C" }, { valro: "D" }];
+const nomina = [{ valor: "A" }, { valor: "B" }, { valor: "C" }, { valor: "D" }];
 const genero = [{ genero: "M" }, { genero: "F" }];
 console.log(slNomina);
 const montosMinimosM = {
@@ -114,6 +114,7 @@ const calcularValoresMontos = () => {
   if (slGenero.value != null && slGenero.value == "M") {
     calcularValoresMinyMa(slNomina.value, fechaHTML.value, slGenero.value);
   } else {
+    calcularValoresMinyMa(slNomina.value, fechaHTML.value, slGenero.value);
   }
 };
 
